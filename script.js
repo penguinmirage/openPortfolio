@@ -12,20 +12,6 @@ document.querySelectorAll(".block-title").forEach((title) => {
   });
 });
 
-document.querySelectorAll(".block-title").forEach((title) => {
-  title.addEventListener("click", () => {
-    const content = title.nextElementSibling;
-
-    title.classList.toggle("open");
-
-    if (content.style.maxHeight) {
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px"; // Open spoiler
-    }
-  });
-});
-
 const audio = document.getElementById("background-music");
 const toggleButton = document.getElementById("toggle-music");
 
