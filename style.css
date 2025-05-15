@@ -39,6 +39,27 @@ body {
   color: white; /* Keep highlight styles when active */
 }
 
+.cv-floating-button {
+width: 250;
+  height: 100;
+  background-color: darkred;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  
+}
+
+
+.cv-floating-button:hover {
+width: 255;
+  height: 105;
+  background-color: red;
+  color: beige;
+  
+  font-size: 14px;
+  
+}
+
 .block-content img {
   box-shadow: 10px 10px 10px black;
 }
