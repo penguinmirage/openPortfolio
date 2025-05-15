@@ -46,7 +46,9 @@ width: 250;
   color: white;
   text-align: center;
   font-size: 13px;
-  
+  position: absolute;
+  top: 80px;
+  right: 20px;
 }
 
 
